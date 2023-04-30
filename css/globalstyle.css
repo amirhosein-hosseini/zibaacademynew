@@ -1,0 +1,219 @@
+@font-face {
+    font-family: "black";
+    src: url("../fonts/PeydaWeb-Black.woff2") format("woff");
+}
+@font-face {
+    font-family: "bold";
+    src: url("../fonts/PeydaWeb-Bold.woff2") format("woff");
+}
+@font-face {
+    font-family: "ex-bold";
+    src: url("../fonts/PeydaWeb-ExtraBold.woff2") format("woff");
+}
+@font-face {
+    font-family: "ex-light";
+    src: url("../fonts/peydaWeb-extralight.woff2") format("woff");
+}
+@font-face {
+    font-family: "light";
+    src: url("../fonts/peydaWeb-light.woff2") format("woff");
+}
+@font-face {
+    font-family: "medium";
+    src: url("../fonts/PeydaWeb-Medium.woff2") format("woff");
+}
+@font-face {
+    font-family: "regular";
+    src: url("../fonts/PeydaWeb-Regular.woff2") format("woff");
+}
+@font-face {
+    font-family: "semi-bold";
+    src: url("../fonts/PeydaWeb-SemiBold.woff2") format("woff");
+}
+@font-face {
+    font-family: "thin";
+    src: url("../fonts/PeydaWeb-Thin.woff2") format("woff");
+}
+
+body{
+    overflow-x: hidden;
+}
+html{
+    overflow-x: hidden;
+}
+
+
+/* start buttons styles */
+.heavy-btn{
+    background: #F2DB7E;
+    border-radius: 36px;
+    display:inline-block;
+    padding: 21px 24px;
+    text-align: center;
+    font-family: "bold";
+    font-size: 20px;
+    color: #10312A;
+    text-decoration: none;
+}
+
+.light-btn{
+    background: #F1CE46;
+    border-radius: 28px;
+    font-family: "bold";
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.record-button{
+    font-family: "semi-bold";
+    font-size: 16px;
+    color: white;
+    border-radius: 8px;
+    background: #0A6146;
+    padding: 8px 16px;
+}
+@media only screen and (max-width:768px){
+    .heavy-btn{
+        padding: 14px 23px;
+    }
+    .light-btn{
+        padding: 17px 24px !important;
+    }
+}
+
+
+
+
+
+
+/* navbar styles */
+.bg-navbar{
+    background: transparent;
+}
+.navbar-regester button{
+    font-family: "semi-bold";
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    color: #1B4E43;
+}
+.navbar-brand{
+    color: white;
+    transition: 0.3s;
+    font-family: "bold";
+    font-size: 20px;
+}
+.navbar-brand:hover{
+    color: #D2D2D2;
+}
+.nav-item a{
+    font-family: "medium";
+    font-size: 18px;
+    color: #D2D2D2;
+    transition: 0.3s;
+}
+.nav-item.active a{
+    font-family: "bold";
+    color: white;
+}
+.nav-item a:hover{
+    font-family: "bold";
+    color: white;
+}
+/* end navbar styles */
+
+
+
+
+
+
+/* footer styles */
+
+footer{
+    background: #133A32;
+}
+.footer-title{
+    font-family: "bold";
+    font-size: 60px;
+    color: white;
+}
+.footer-item-title{
+    font-family: "ex-bold";
+    font-size: 30px;
+    color: white;
+}
+.footer-pages-items a{
+    font-family: "semi-bold";
+    font-size: 16px;
+    color: #9FACA9;
+    transition: 0.3s;
+}
+.footer-pages-items a:hover{
+    color: white;
+    text-decoration: none;
+}
+.footer-contact-items p{
+    font-family: "semi-bold";
+    font-size: 16px;
+    color: #9FACA9;
+    direction: rtl;
+}
+
+.footer-social-items a{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.footer-social-items a:hover{
+    text-decoration: none;
+    background: #F1CE46;
+}
+.footer-enamad-image{
+    max-width: 100px;
+    overflow: hidden;
+    margin-left: auto;
+}
+.footer-enamad-image img{
+    object-fit: cover;
+    width: 100%;
+}
+.under-footer{
+    background: #0E2D26;
+    border-radius: 39px;
+}
+.under-footer p{
+    color: #eee;
+    font-family: "regular";
+    font-size: 17px;
+}
+.under-footer p a{
+    font-family: "bold";
+    font-size: 20px;
+    color: white;
+}
+.under-footer p a:hover{
+    text-decoration: none;
+}
+@media only screen and (max-width:768px){
+    .footer-title{
+        font-size: 48px;
+    }
+    .footer-title-image{
+        max-width: 72px;
+    }
+    .footer-item-title{
+        font-size: 20px;
+    }
+    .under-footer p{
+        font-size: 15px;
+    }
+    .under-footer p a{
+        font-size: 17px;
+    }
+    .under-footer{
+        width: 90%;
+        margin: 0 auto !important;
+    }
+}
